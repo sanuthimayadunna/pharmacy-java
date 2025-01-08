@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    margin-bottom: 2em;
+    font-style: Arial;
+    background:rgb(222, 212, 212);
+  }
+  
+  p {
+    color: rgb(126, 40, 93);
+  }
+  
+  body {
+    background-color:rgb(206, 152, 208);
+  }
+  
+  .active {
+    color: rgb(142, 24, 122);
+    font-weight: bold;
+  }
+  
+  .topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color:rgb(12, 12, 12) ;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .topnav {
+        flex-direction: row; 
+        align-items: center;
+        text-align: justify;
+      }
+  
+    .topnav a {
+        margin: 10px 0; 
+        padding: 10px 0; 
+        flex-grow: initial; 
+        font-size: small;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;
+    }
+  }
+  
+  p{
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+  }
+  
+  
+  .footer {
+    background-color:rgb(0, 0, 0);
+    color: white; 
+    text-align: left;
+    padding: 20px; 
+  }
+  
+  
+  th , td {
+    background-color: rgb(254, 254, 255);
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    border-left: 1px solid rgb(8, 8, 8) ;
+    border-right: 1px solid rgb(8, 8, 8);
+    border-top: 1px solid rgb(8, 8, 8);
+  }
+  
+  
+  th {
+    background-color: #f5a1e9;
+  }
+  
+  tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  @media (max-width: 768px) {
+    .table {
+      width: 100%;
+      margin-inline-start: 5%;
+      margin-inline-end: 5%;
+    }
+  
+    th, td {
+      font-size: 14px; 
+      padding: 5%; 
+    }
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+  }
+  @media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  }
+  
+  .button{
+    margin: 20%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 3);
+    padding: 10px 20px;
+   text-decoration: none;
+  }
+
+  th:nth-child(1), td:nth-child(1) {
+    width: 25%;
+  }
+  th:nth-child(2), td:nth-child(2) {
+    width: 25%;
+  }  
+  th:nth-child(3), td:nth-child(3) {
+      width: 25%;
+  }
+  th:nth-child(4), td:nth-child(4) {
+    width: 25%;
+}
+  
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 75%;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  
+  input[type="text"] ,input[type="email"],input[type="number"]{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background-color: #f5a1e9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #f5a1e9;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%; 
+    gap: 5%;
+}
+.box {
+    flex: 1 1 calc(30% - 20px); /* Adjust the size of the boxes */
+    border: 1px solid rgb(189, 206, 224);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 300px; /* Set a fixed height for all boxes */
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.button-small {
+  display: block;
+  width: 100%;
+  background-color: #f5a1e9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 40%;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20%;
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally inside the container */
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+}
+
+
+
